@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+ul {
+    background-color: purple;
+    padding: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 20px;
+}
+
+ul li a:hover {
+    color: rgb(185, 34, 34);
+}
+
+.box-a {
+    float: left;
+    width: 33.3%;
+    border: 2px solid #eee;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.box-b {
+    float: right;
+    width: 33.3%;
+    border: 2px solid #eee;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
